@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Code, Users, Award, Cpu, Zap, Target, TrendingUp, ChevronDown, Play, Pause } from 'lucide-react';
+import { ArrowRight, Code, Users, Award, Cpu, Zap, Target, TrendingUp, ChevronDown, Play, Pause, TicketSlashIcon, PackageSearch } from 'lucide-react';
+import { m } from 'framer-motion';
 
 const Home: React.FC = () => {
   const [currentMetric, setCurrentMetric] = useState(0);
